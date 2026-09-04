@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "authscope"
+version = "0.1.0"
+description = "Defensive authentication event analysis helpers"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+py-modules = ["authscope"]
